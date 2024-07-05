@@ -18,11 +18,13 @@
 5. <code>git config user.email "Correo utilizado en GitHub"</code>
 6. <code>git remote add origin "URL del repositorio"</code>
 
-### Comandos básicos de GitHub (GIT ADD, GIT COMMIT, GIT PUSH)
+### Comandos básicos de GitHub (GIT ADD, GIT COMMIT, GIT PUSH, ETC)
 
 El comando <code>git add nombre_archivo</code> se utiliza para indicar a GitHub que agregaremos un archivo al repositorio, solo se está notificado más no se está agregando.
 
 El comando <code>git commit -m "Comentario"</code> le indica a GitHub la confirmación para agregar el archivo al repositorio, junto con un comentario.
+
+El comando <code>git fetch</code> se utiliza para recuperar el nuevo trabajo realizado por otras personas.
 
 El comando <code>git push -u origin master</code> sube el archivo al repositorio indicado, la rama donde se subirá; en nuestro caso, usaremos la rama por defecto creada por GitHub que se llama "master".
 

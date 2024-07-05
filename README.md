@@ -24,8 +24,8 @@ El comando <code>git add nombre_archivo</code> se utiliza para indicar a GitHub 
 
 El comando <code>git commit -m "Comentario"</code> le indica a GitHub la confirmación para agregar el archivo al repositorio, junto con un comentario.
 
-El comando <code>git fetch</code> se utiliza para recuperar el nuevo trabajo realizado por otras personas.
-
 El comando <code>git push -u origin master</code> sube el archivo al repositorio indicado, la rama donde se subirá; en nuestro caso, usaremos la rama por defecto creada por GitHub que se llama "master".
+
+El comando <code>git fetch</code> se utiliza para recuperar el nuevo trabajo realizado por otras personas.
 
 Nota: Una buena práctica, antes de comenzar a interactuar con un repositorio, es revisar siempre el estatus de nuestros cambios entre el repositorio remoto y nuestro equipo (local). Para ello utilizaremos el siguiente comando: <code> git status</code>.

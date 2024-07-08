@@ -33,3 +33,9 @@ El comando <code>git clone</code> se utiliza para copiar de forma completa un re
 El comando <code>git pull origin master</code> se utiliza para bajar los cambios hechos en el repositorio remoto, para ello se especifican 2 parametros, el primero especifica el alias que le hayamos dado al repositorio remoto (por convencion se suele nombrar "origin"), despues se debe especificar la rama (en este caso es "master").
 
 El comando <code>git status</code> muestra el estado del directorio de trabajo y del repositorio.
+
+### Branch (ramas) en GitHub
+
+El comando <code>git branch</code> lista las ramas que existen e indica en cual estamos situados.
+
+El comando <code>git branch nueva_rama</code> tambien sirve para crear ramas, solo basta con agregar un espacio y colocar un nombre (Nota: No debe incluir espacios el nombre ademas se recomienda usar la notacion camello *CamelCase)

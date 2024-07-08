@@ -28,4 +28,6 @@ El comando <code>git push -u origin master</code> sube el archivo al repositorio
 
 El comando <code>git fetch</code> se utiliza para recuperar el nuevo trabajo realizado por otras personas.
 
+El comando <code>git clone</code> se utiliza para copiar de forma completa un repositorio remoto a nuestro equipo.
+
 Nota: Una buena práctica, antes de comenzar a interactuar con un repositorio, es revisar siempre el estatus de nuestros cambios entre el repositorio remoto y nuestro equipo (local). Para ello utilizaremos el siguiente comando: <code> git status</code>.

@@ -46,3 +46,7 @@ En caso de requerir cambiar el nombre de una rama, se utiliza el siguiente coman
 Para cambiar entre ramas se utiliza el siguiente comando <code>git checkout nombre_de_la_rama</code>
 
 Si se desea eliminar una rama, se utiliza el siguiente comando <code>git branch -d rama_a_eliminar</code>
+
+Al trabajar con varias ramas, es necesario saber cuales son las diferencias entre cada una de ellas, para ello se utiliza el comando <code>git diff primera_rama_a_comparar segunda_rama_a_comparar</code>
+
+Si se requiere funcionar las ramas, se utiliza el siguiente comando <code>git merge rama_origen rama_destino</code>

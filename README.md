@@ -21,6 +21,7 @@
 ### Comandos básicos de GitHub (GIT ADD, GIT COMMIT, GIT PUSH, ETC)
 
 El comando <code>git add nombre_archivo</code> se utiliza para indicar a GitHub que agregaremos un archivo al repositorio, solo se está notificado más no se está agregando.
+Nota: Si se desean subir varios archivos, basta con agregrar un espacio y un punto al final del add, ejemplo: <code>git add .</code>
 
 El comando <code>git commit -m "Comentario"</code> le indica a GitHub la confirmación para agregar el archivo al repositorio, junto con un comentario.
 
@@ -41,3 +42,11 @@ El comando <code>git branch</code> lista las ramas que existen e indica en cual 
 El comando <code>git branch nueva_rama</code> tambien sirve para crear ramas, solo basta con agregar un espacio y colocar un nombre (Nota: No debe incluir espacios el nombre ademas se recomienda usar la notacion camello *CamelCase)
 
 En caso de requerir cambiar el nombre de una rama, se utiliza el siguiente comando <code>git branch -m nombre_anterior nombre_nueva</code>
+
+Para cambiar entre ramas se utiliza el siguiente comando <code>git checkout nombre_de_la_rama</code>
+
+Si se desea eliminar una rama, se utiliza el siguiente comando <code>git branch -d rama_a_eliminar</code>
+
+Al trabajar con varias ramas, es necesario saber cuales son las diferencias entre cada una de ellas, para ello se utiliza el comando <code>git diff primera_rama_a_comparar segunda_rama_a_comparar</code>
+
+Si se requiere funcionar las ramas, se utiliza el siguiente comando <code>git merge rama_origen rama_destino</code> (Nota, para poder hacer el merge es necesario situase en la rama destino)

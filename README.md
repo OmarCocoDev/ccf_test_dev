@@ -63,3 +63,7 @@ El comando git pull se emplea para extraer y descargar contenido desde un reposi
 6. Accedemos a la URL del repositorio en el que estamos contribuyendo y podremos vizualizar nuestra rama y los commits, despues de ello pulsamos en "Contribute"
 7. Nos pedira hacer el pull request (Hay que esperar la aprobación). 
 8. Listo hemos hecho nuestro pull request
+
+### Revertir cambios
+
+En caso de querer eliminar un commit, se utiliza el comando <code>git reset</code>. Nota: Si necesitamos eliminar un archivo podemos utilizar el siguiente comando: <code>git rm --cached "<added_file_to_undo>"</code>

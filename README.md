@@ -43,3 +43,5 @@ El comando <code>git branch nueva_rama</code> tambien sirve para crear ramas, so
 En caso de requerir cambiar el nombre de una rama, se utiliza el siguiente comando <code>git branch -m nombre_anterior nombre_nueva</code>
 
 Para cambiar entre ramas se utiliza el siguiente comando <code>git checkout nombre_de_la_rama</code>
+
+Si se desea eliminar una rama, se utiliza el siguiente comando <code>git branch -d rama_a_eliminar</code>

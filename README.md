@@ -49,4 +49,4 @@ Si se desea eliminar una rama, se utiliza el siguiente comando <code>git branch 
 
 Al trabajar con varias ramas, es necesario saber cuales son las diferencias entre cada una de ellas, para ello se utiliza el comando <code>git diff primera_rama_a_comparar segunda_rama_a_comparar</code>
 
-Si se requiere funcionar las ramas, se utiliza el siguiente comando <code>git merge rama_origen rama_destino</code>
+Si se requiere funcionar las ramas, se utiliza el siguiente comando <code>git merge rama_origen rama_destino</code> (Nota, para poder hacer el merge es necesario situase en la rama destino)

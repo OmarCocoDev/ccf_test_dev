@@ -32,4 +32,4 @@ El comando <code>git clone</code> se utiliza para copiar de forma completa un re
 
 El comando <code>git pull origin master</code> se utiliza para bajar los cambios hechos en el repositorio remoto, para ello se especifican 2 parametros, el primero especifica el alias que le hayamos dado al repositorio remoto (por convencion se suele nombrar "origin"), despues se debe especificar la rama (en este caso es "master").
 
-Nota: Una buena práctica, antes de comenzar a interactuar con un repositorio, es revisar siempre el estatus de nuestros cambios entre el repositorio remoto y nuestro equipo (local). Para ello utilizaremos el siguiente comando: <code> git status</code>.
+El comando <code>git status</code> muestra el estado del directorio de trabajo y del repositorio.

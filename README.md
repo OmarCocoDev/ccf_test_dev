@@ -35,7 +35,7 @@ El comando <code>git pull origin master</code> se utiliza para bajar los cambios
 
 El comando <code>git status</code> muestra el estado del directorio de trabajo y del repositorio.
 
-### Branch (ramas) en GitHub
+### Branch (ramas)
 
 El comando <code>git branch</code> lista las ramas que existen e indica en cual estamos situados.
 
@@ -50,3 +50,16 @@ Si se desea eliminar una rama, se utiliza el siguiente comando <code>git branch 
 Al trabajar con varias ramas, es necesario saber cuales son las diferencias entre cada una de ellas, para ello se utiliza el comando <code>git diff primera_rama_a_comparar segunda_rama_a_comparar</code>
 
 Si se requiere funcionar las ramas, se utiliza el siguiente comando <code>git merge rama_origen rama_destino</code> (Nota, para poder hacer el merge es necesario situase en la rama destino)
+
+### Pull request
+
+El comando git pull se emplea para extraer y descargar contenido desde un repositorio remoto y actualizar al instante el repositorio local para reflejar ese contenido, cuando el repositorio no es de nuestra autoria, debemos realizar lo siguientes pasos
+
+1. Ubicar el repositorio en el que queramos contribuir
+2. Teniendo el repositorio, hay que realizar un "Fork"
+3. Despues de hacer realizado el fork, se procede a clonar el repositorio a nuestro equipo <code>git clone url_repositorio</code>
+4. Teniendo el repositorio clonado, procedemos a crear una rama y trabajar en nuestra contribución
+5. Agregamos nuestros cambios y los subimos
+6. Accedemos a la URL del repositorio en el que estamos contribuyendo y podremos vizualizar nuestra rama y los commits, despues de ello pulsamos en "Contribute"
+7. Nos pedira hacer el pull request (Hay que esperar la aprobación). 
+8. Listo hemos hecho nuestro pull request

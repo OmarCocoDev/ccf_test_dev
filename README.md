@@ -30,4 +30,6 @@ El comando <code>git fetch</code> se utiliza para recuperar el nuevo trabajo rea
 
 El comando <code>git clone</code> se utiliza para copiar de forma completa un repositorio remoto a nuestro equipo.
 
+El comando <code>git pull</code> se utiliza para bajar los cambios hechos en el repositorio remoto.
+
 Nota: Una buena práctica, antes de comenzar a interactuar con un repositorio, es revisar siempre el estatus de nuestros cambios entre el repositorio remoto y nuestro equipo (local). Para ello utilizaremos el siguiente comando: <code> git status</code>.

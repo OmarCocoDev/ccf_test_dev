@@ -41,3 +41,5 @@ El comando <code>git branch</code> lista las ramas que existen e indica en cual 
 El comando <code>git branch nueva_rama</code> tambien sirve para crear ramas, solo basta con agregar un espacio y colocar un nombre (Nota: No debe incluir espacios el nombre ademas se recomienda usar la notacion camello *CamelCase)
 
 En caso de requerir cambiar el nombre de una rama, se utiliza el siguiente comando <code>git branch -m nombre_anterior nombre_nueva</code>
+
+Para cambiar entre ramas se utiliza el siguiente comando <code>git checkout nombre_de_la_rama</code>

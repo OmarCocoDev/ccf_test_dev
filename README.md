@@ -21,6 +21,7 @@
 ### Comandos básicos de GitHub (GIT ADD, GIT COMMIT, GIT PUSH, ETC)
 
 El comando <code>git add nombre_archivo</code> se utiliza para indicar a GitHub que agregaremos un archivo al repositorio, solo se está notificado más no se está agregando.
+Nota: Si se desean subir varios archivos, basta con agregrar un espacio y un punto al final del add, ejemplo: <code>git add .</code>
 
 El comando <code>git commit -m "Comentario"</code> le indica a GitHub la confirmación para agregar el archivo al repositorio, junto con un comentario.
 

@@ -67,3 +67,30 @@ El comando git pull se emplea para extraer y descargar contenido desde un reposi
 ### Revertir cambios
 
 En caso de querer eliminar un commit, se utiliza el comando <code>git reset</code>. Nota: Si necesitamos eliminar un archivo podemos utilizar el siguiente comando: <code>git rm --cached "<added_file_to_undo>"</code>
+
+### Etiquetas (tag)
+
+Git tiene la posibilidad de etiquetar puntos específicos del historial como importantes. Esta funcionalidad se usa típicamente para marcar versiones de lanzamiento (v1.0, por ejemplo).
+
+Listar Tus Etiquetas: <code>git tag</code>
+
+Para buscar etiquetas con un patrón particular. El repositorio del código fuente de Git, por ejemplo, contiene más de 500 etiquetas. Si sólo te interesa ver la serie 1.8.5, puedes ejecutar: <code>git tag -l 'v1.8.5*'</code>
+
+#### Crear etiquetas
+
+Git utiliza dos tipos principales de etiquetas: ligeras y anotadas.
+
+Una etiqueta ligera es muy parecido a una rama que no cambia - simplemente es un puntero a un commit específico.
+
+Sin embargo, las etiquetas anotadas se guardan en la base de datos de Git como objetos enteros. Tienen un checksum; contienen el nombre del etiquetador, correo electrónico y fecha; tienen un mensaje asociado; y pueden ser firmadas y verificadas con GNU Privacy Guard (GPG). 
+
+Para crear una etiqueta anotada, se utiliza el siguiente comando: <code>git tag -a v1.4 -m 'my version 1.4'</code>. La opción -m especifica el mensaje de la etiqueta, el cual es guardado junto con ella. Si no especificas el mensaje de una etiqueta anotada, Git abrirá el editor de texto para que lo escribas.
+
+Puedes ver la información de la etiqueta junto con el commit que está etiquetado al usar el comando: <code>git show v1.4</code>
+
+Para crear una etiqueta ligera, utiliza el siguiente comando: <code>git tag v1.4-lw</code>
+
+Para ver la etiqueta ligera, utiliza el siguiente comando: <code>git show v1.4-lw</code>
+
+Para subir una etiqueta al repositorio remoto, utiliza el siguiente comando: <code>git push origin v1.4</code>
+Nota: Para subir varias etiquetas, se usa el siquiente comando: <code>git push origin --tags</code>
